@@ -1,13 +1,232 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="./js/main.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Resume</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <h1>CV</h1>
+    <button id="download-btn" class="button">Download</button>
+  </header>
+  <div class="page">
+
+    <div id="resume" class="resume">
+
+      <div class="block-1">
+
+        <div class="avatar-container">
+          <img src="./static/icons/profileImg.png" alt="Profile Picture" class="avatar">
+        </div>
+
+        <div class="personal-info">
+          <p class="personal-info__header-text">Hello 👋🏻 I’m</p>
+          <div class="personal-info__container">
+            <p class="personal-info__name">Karthik SR</p>
+            <p class="personal-info__specialty">UX/UI Designer</p>
+          </div>
+        </div>
+
+        <div class="languages-info">
+          <h3 class="header-text">Languages</h3>
+          <ul>
+            <li>English <div class="languages-info__progress"></div>
+            </li>
+            <li>Malayalam <div class="languages-info__progress"></div>
+            </li>
+            <li>Hindi <div class="languages-info__progress"></div>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="block-2">
+
+        <div class="experience-info">
+          <h3 class="header-text">Experience</h3>
+          <div class="experience-info__list">
+            <div class="experience-info__list-item selected">
+
+              <div class="experience-info__header">
+                <span class="experience-info__period">Jun. 2023 - Present</span>
+                <span class="experience-info__label">most recent</span>
+              </div>
+              <div class="experience-info__content">
+                <div class="experience-info__job">
+                  <span class="experience-info__job-specialty">Marketing Manager</span>
+                  <div class="experience-info__job-bottom">
+                    <span class="experience-info__job-time">Pankayam</span>
+                    |
+                    <span class="experience-info__job-time">Full-time</span>
+                  </div>
+                </div>
+
+                <ul class="experience-info__responsibility-list">
+                  <li class="experience-info__responsibility-list-item">
+                    Strategy development and planning of campaigns that promote the business and generate genuine
+                    traffic
+                  </li>
+                  <li class="experience-info__responsibility-list-item">
+                    SEO Content Creation for Blogs, Website, Social media
+                  </li>
+                </ul>
+              </div>
+
+            </div>
+
+            <div class="experience-info__list-item">
+
+              <div class="experience-info__header">
+                <span class="experience-info__period">2017 - Present</span>
+              </div>
+              <div class="experience-info__content">
+                <div class="experience-info__job">
+                  <span class="experience-info__job-specialty">Graphic / Web designer</span>
+                  <div class="experience-info__job-bottom">
+                    <span class="experience-info__job-time">Freelance</span>
+                  </div>
+                </div>
+
+                <ul class="experience-info__responsibility-list">
+                  <li class="experience-info__responsibility-list-item">
+                    Development of internal projects from scratch, product design of brands
+                  </li>
+                  <li class="experience-info__responsibility-list-item">
+                    Landing page, webapps and hybrid apps
+                  </li>
+                  <li class="experience-info__responsibility-list-item">
+                    Coordinating with outside agencies, art services, web designer, marketing, printers, and colleagues
+                    as
+                    necessary.
+                  </li>
+                </ul>
+              </div>
+
+            </div>
+
+            <div class="experience-info__list-item">
+
+              <div class="experience-info__header">
+                <span class="experience-info__period">Sep. 2021 - Jun. 2023</span>
+              </div>
+              <div class="experience-info__content">
+                <div class="experience-info__job">
+                  <span class="experience-info__job-specialty">Legal Assistant</span>
+                  <div class="experience-info__job-bottom">
+                    <span class="experience-info__job-time">Law Firm</span>
+                    |
+                    <span class="experience-info__job-time">Intern</span>
+                  </div>
+                </div>
+
+                <ul class="experience-info__responsibility-list">
+                  <li class="experience-info__responsibility-list-item">
+                    Provide administrative support to lawyer and enhance office effectiveness
+                  </li>
+                  <li class="experience-info__responsibility-list-item">
+                    Handle communication with clients, witnesses etc.
+                  </li>
+                  <li class="experience-info__responsibility-list-item">
+                    repare case briefs and summarize depositions, interrogatories and testimony
+                  </li>
+                </ul>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div id="tools" class="tools-info">
+          <h3 class="header-text">Tools</h3>
+          <div class="tools-info__list">
+            <div class="tools-info__list-item">
+              <div class="tools-info__label">design</div>
+              <div class="tools-info__tools-list">
+                <div class="tools-info__tools-list-item">
+                  <img class="tools-info__icon" src="./static/icons/figma.png" />
+                </div>
+                <div class="tools-info__tools-list-item">
+                  <img class="tools-info__icon" src="./static/icons/photoshop.png" />
+                </div>
+                <div class="tools-info__tools-list-item">
+                  <img class="tools-info__icon" src="./static/icons/illustrator.png" />
+                </div>
+                <div class="tools-info__tools-list-item">
+                  <img class="tools-info__icon" src="./static/icons/premiere.png" />
+                </div>
+                <div class="tools-info__tools-list-item">
+                  <img class="tools-info__icon" src="./static/icons/notion.png" />
+                </div>
+                <div class="tools-info__tools-list-item">
+                  <img class="tools-info__icon" src="./static/icons/meet.png" />
+                </div>
+              </div>
+            </div>
+            <div class="tools-info__list-item">
+              <div class="tools-info__label">no-code</div>
+              <div class="tools-info__tools-list">
+                <div class="tools-info__tools-list-item">
+                  <img class="tools-info__icon" src="./static/icons/zapier.png" />
+                </div>
+                <div class="tools-info__tools-list-item">
+                  <img class="tools-info__icon" src="./static/icons/webflow.png" />
+                </div>
+                <div class="tools-info__tools-list-item">
+                  <img class="tools-info__icon" src="./static/icons/framer.png" />
+                </div>
+                <div class="tools-info__tools-list-item">
+                  <img class="tools-info__icon" src="./static/icons/wordpress.png" />
+                </div>
+              </div>
+            </div>
+            <div class="tools-info__list-item">
+              <div class="tools-info__label">artificial intelligence</div>
+              <div class="tools-info__tools-list">
+                <div class="tools-info__tools-list-item">
+                  <img class="tools-info__icon" src="./static/icons/chatgpt.png" />
+                </div>
+                <div class="tools-info__tools-list-item">
+                  <img class="tools-info__icon" src="./static/icons/copilot.png" />
+                </div>
+                <div class="tools-info__tools-list-item">
+                  <img class="tools-info__icon" src="./static/icons/midjourney.png" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="block-3">
+
+        <div class="education-info">
+          <h3 class="header-text">Education</h3>
+          <div id="education-list" class="education-info__list">
+          </div>
+        </div>
+
+        <div class="block-right">
+          <div class="interests-info">
+            <h3 class="header-text">Interests</h3>
+            <div id="interests-list" class="interests-info__list">
+            </div>
+          </div>
+
+          <div id="contacts" class="contacts-info">
+            <p class="contacts-info__welcome-text">Let´s chat! I´m ready to work on exciting projects</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+  <script type="module" src="./js/main.js"></script>
+</body>
+
 </html>

@@ -1,0 +1,24 @@
+.contacts-info {
+    padding: 12rem;
+    width: 267rem;
+    height: 92rem;
+    background: #000000;
+    border-radius: 12rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contacts-info__welcome-text {
+    font-size: 14rem;
+    font-weight: 500;
+    line-height: 150%;
+    color: #ffffff;
+}
+
+.contacts-info__email {
+    color: #DDDDDD;
+    font-size: 10rem;
+    line-height: 150%;
+}

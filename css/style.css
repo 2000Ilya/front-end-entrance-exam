@@ -1,96 +1,80 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+@import url(../static/fonts/fonts.css);
+@import url(./defaults.css);
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+@import url(./avatar.css);
+@import url(./personal.css);
+@import url(./languages.css);
+@import url(./experience.css);
+@import url(./tools.css);
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url(./education.css);
+@import url(./interests.css);
+@import url(./contacts.css);
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
 
-body {
-  margin: 0;
+.header {
   display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  align-items: center;
+  justify-content: space-between;
+  background: #ffffff;
+  padding: 10rem 20rem;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+.header h1 {
+  font-size: 24rem;
+  margin: 0;
 }
 
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vanilla:hover {
-  filter: drop-shadow(0 0 2em #f7df1eaa);
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}
-
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
+.button {
+  padding: 10rem 20rem;
+  font-size: 12rem;
   cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+  border-radius: 40rem;
+  background: #f0f0f0;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+.button:hover {
+  background: #e0e0e0;
+}
+
+.page {
+  padding: 20rem;
+}
+
+.resume {
+  background: #fff;
+  padding: 15rem 20rem;
+  border-radius: 5rem;
+  box-shadow: 0 0 10rem rgba(0, 0, 0, 0.1);
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.block-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.block-2 {
+  margin-top: 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 359rem;
+}
+
+.block-3 {
+  margin-top: 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 289rem;
+}
+
+.block-right {
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+  gap: 20rem;
 }

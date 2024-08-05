@@ -1,0 +1,70 @@
+.education-info {
+    padding: 12rem;
+    width: 272rem;
+    background: #f0f0f0;
+    border-radius: 12rem;
+    box-sizing: border-box;
+    align-self: stretch;
+}
+
+.education-info__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12rem 16rem;
+}
+
+.education-info__list-item {
+    color: #000000;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    gap: 8rem;
+    width: 116rem;
+    padding: 8rem;
+    border-radius: 10rem;
+    box-sizing: border-box;
+}
+
+.education-info__list-item.selected {
+    color: #ffffff;
+    background: #28d979;
+}
+
+.education-info__company {
+    font-size: 8rem;
+    line-height: 150%;
+}
+
+.education-info__period {
+    font-size: 10rem;
+    line-height: 150%;
+    font-weight: 500;
+}
+
+.education-info__central-block {
+    display: flex;
+    flex-direction: column;
+    gap: -2rem;
+}
+
+.education-info__specialty-name {
+    font-size: 10rem;
+    line-height: 150%;
+    font-weight: 500;
+}
+
+.education-info__tags-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 2rem;
+}
+
+.education-info__tags-list-item {
+    color: #149063;
+    font-size: 8rem;
+    line-height: 150%;
+}
+
+.education-info__list-item.selected .education-info__tags-list-item {
+    color: #ebf9f2;
+}

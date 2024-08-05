@@ -1,0 +1,40 @@
+.languages-info {
+    padding: 12rem;
+    width: 267rem;
+    height: 124rem;
+    border-radius: 12rem;
+    background: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    box-sizing: border-box;
+}
+
+.header-text {
+    margin: 0 0 16rem 0;
+    font-size: 14rem;
+    line-height: 150%;
+}
+
+.languages-info ul {
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+    margin: 0;
+}
+
+.languages-info ul li {
+    display: flex;
+    justify-content: space-between;
+    font-size: 10rem;
+}
+
+.languages-info__progress {
+    width: 168rem;
+    height: 11rem;
+    border-radius: 3rem;
+    background: #28D979;
+}

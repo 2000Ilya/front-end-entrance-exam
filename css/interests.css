@@ -1,0 +1,28 @@
+.interests-info {
+    padding: 12rem;
+    width: 267rem;
+    background: #F0F0F0;
+    border-radius: 12rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.interests-info__list {
+    display: flex;
+    gap: 8rem;
+    flex-wrap: wrap;
+}
+
+.interests-info__list-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 10rem;
+    background: #ffffff;
+    color: #000000;
+    border-radius: 40rem;
+    font-size: 10rem;
+    line-height: 150%;
+}
